@@ -12,6 +12,14 @@ Also, I've always been interested in Desert Strike ever since I first played it.
 
 Xel Toolkit: https://xel-toolkit.org/
 
+# To run from source:
+
+Clone this repository, and run `npm start` in the main directory.
+
+# Help. I'm a user, and I just want to run it.
+
+Check out the Releases section.
+
 # Known Issues
 
 - Some Level 2 passwords cannot be generated with certain high scores. I'm unsure if this is due to a limitation of the password system, or if there is a bug. This remains something to sort out.
