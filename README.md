@@ -25,6 +25,7 @@ Check out the Releases section.
 
 # Known Issues
 
+- It takes awhile for the program to start. This is worse in the releases (as opposed to running from source). This is the nature of Electron apps, but if you know any optimization tricks, let me know.
 - Some Level 2 passwords cannot be generated with certain high scores. I'm unsure if this is due to a limitation of the password system, or if there is a bug. This remains something to sort out.
 - The score text input and the score slider input are not always 100% synced. I could afford to redo the data bindings. If you type in a score manually, be sure to press Enter.
 - Only the SNES version is currently supported.
