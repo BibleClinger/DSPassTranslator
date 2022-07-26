@@ -28,4 +28,4 @@ If you would like to contribute:
 
 # Thanks:
 
-Thanks to accelerator for his late night help in understanding a good portion of the password system. When do we tackle the next project?
+Thanks to acceleraptor for his late night help in understanding a good portion of the password system. When do we tackle the next project?
