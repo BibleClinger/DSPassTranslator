@@ -6,7 +6,7 @@ This is a password translator for the amazing video game Desert Strike. It suppo
 
 This was a practice project to get used to Electron.
 
-Also, I've always been interested in Desert Strike ever since I first played it. The game has already been out for decades, and passwords are already floating around all over the place. Nevertheless, this was an attemptso understanding the password system, which was a fun project I've wanted to tackle for awhile.
+Also, I've always been interested in Desert Strike ever since I first played it. The game has already been out for decades, and passwords are already floating around all over the place. Nevertheless, this was an attempt at seriously understanding the nature of the password system, what it encodes, and how it encodes it, which was a fun project I've wanted to tackle for awhile.
 
 # Dependencies
 
