@@ -16,7 +16,7 @@ Xel Toolkit: https://xel-toolkit.org/
 
 Clone this repository, and run `npm start` in the main directory.
 
-# Help. I'm a user, and I just want to run it.
+# "Help. I'm a user, and I just want to run it."
 
 Check out the Releases section.
 
