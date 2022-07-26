@@ -1,0 +1,15 @@
+{
+  "name": "DSPassTranslator",
+  "version": "1.0.0",
+  "description": "A password analyzer for the SNES version of Desert Strike",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BC",
+  "license": "ISC",
+  "dependencies": {
+    "xel": "^0.17.2"
+  }
+}

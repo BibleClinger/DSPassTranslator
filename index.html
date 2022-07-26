@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "UTF-8">
+      <script src="node_modules/xel/xel.js" type="module"></script>
+      <meta name="xel-theme" content="node_modules/xel/themes/fluent-dark.css">
+      <meta name="xel-accent-color" content="yellow">
+      <meta name="xel-size" content="medium">
+      <meta name="xel-iconsets" content="node_modules/xel/iconsets/fluent-outlined.svg">
+      <title>Desert Strike SNES Password Translator</title>
+   </head>
+
+   <body>
+     <x-box>
+      <x-card style="min-height:150px">
+          <h2 style="text-align:center">Password</h2>
+          <x-box>
+            <x-input style="margin-left:auto" id="passwordInput" minlength="7" maxlength="7"><x-label>BBBBBBB</x-label></x-input>
+            <x-icon style="margin-right:auto" href="#copy" id="copyPasswordIcon"></x-icon>
+          </x-box>
+      </x-card>
+      <x-box vertical>
+        <x-box vertical>
+          <x-button id="decipherButton" style="width:175px"><x-label>Decipher</x-label><x-icon href="#remove"></x-icon><x-icon href="#chevron-right"></x-icon></x-button>
+          <x-button id="generateButton" style="width:175px"><x-icon href="#chevron-left"></x-icon><x-icon href="#remove"></x-icon><x-label>Generate</x-label></x-button>
+          <x-box style="margin-top:15px; margin-left:auto; margin-right:auto">
+            <x-label id="label5" style="margin-left:auto">5 lives: GTSTFTC</x-label>
+            <x-icon style="margin-left:5px; margin-right:auto" href="#copy" id="copy5"></x-icon>
+          </x-box>
+          <x-box style="margin-left:auto; margin-right:auto">
+            <x-label id="label10" style="margin-left:auto">10 lives: BS9JS27</x-label>
+            <x-icon style="margin-left:5px; margin-right:auto" href="#copy" id="copy10"></x-icon>
+          </x-box>
+        </x-box>
+      </x-box>
+      <x-card style="min-height:150px">
+        <h2 style="text-align:center">Level &amp; Score</h2>
+        <x-numberinput style="margin-left:auto; margin-right:auto" id="levelInput" min="2" max="5" prefix="Level " value="2">
+          <x-stepper></x-stepper>
+        </x-numberinput>
+        <x-numberinput style="margin-left:auto; margin-right:auto" id="scoreInput" min="0" max="9999000" step="1000" prefix="Score " value="0">
+          <x-stepper></x-stepper>
+        </x-numberinput>
+        <x-slider id="scoreSlider" value="0" min="0" max="9999000" step="1000"></x-slider>
+      </x-card>
+    </x-box>
+    <x-notification id="notification" timeout="3000"></x-notification>
+    <script src = "view.js" ></script>
+   </body>
+</html>
