@@ -6,16 +6,16 @@ This is a password translator for the amazing video game Desert Strike. It suppo
 
 This was a practice project to get used to Electron. Also, I've always been interested in Desert Strike ever since I first played it.
 
-#Dependencies
+# Dependencies
 
 Xel Toolkit: https://xel-toolkit.org/
 
-#Known Issues
+# Known Issues
 
 - Some Level 2 passwords cannot be generated with certain high scores. I'm unsure if this is due to a limitation of the password system, or if there is a bug. This remains something to sort out.
 - The score text input and the score slider input are not always 100% synced. I could afford to redo the data bindings.
 
-#TODO:
+# TODO:
 
 If you would like to contribute:
 
