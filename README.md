@@ -16,7 +16,7 @@ Xel Toolkit: https://xel-toolkit.org/
 
 - Some Level 2 passwords cannot be generated with certain high scores. I'm unsure if this is due to a limitation of the password system, or if there is a bug. This remains something to sort out.
 - The score text input and the score slider input are not always 100% synced. I could afford to redo the data bindings.
-- Only the SNES system is supported currently.
+- Only the SNES version is currently supported.
 
 # TODO:
 
