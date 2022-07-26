@@ -19,6 +19,6 @@ Xel Toolkit: https://xel-toolkit.org/
 
 If you would like to contribute:
 
-- The code for password generation and deciphering could really afford to be rewritten.
-- The code for password generation and deciphering could really afford to be moduliarized.
+- The code for password generation and deciphering could really afford to be *rewritten*.
+- The code for password generation and deciphering could really afford to be *moduliarized*.
 - A version should be displayed on the main window that pulls from app.getVersion() or some equivalent.
