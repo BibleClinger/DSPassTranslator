@@ -12,9 +12,12 @@ Also, I've always been interested in Desert Strike ever since I first played it.
 
 Xel Toolkit: https://xel-toolkit.org/
 
-# To run from source:
+# To use the source:
 
-Clone this repository, and run `npm start` in the main directory.
+You have two options:
+
+1. Clone this repository, and run `npm start` in the main directory.
+2. Clone this repository, and build it with Electron-Builder.
 
 # "Help. I'm a user, and I just want to run it."
 
