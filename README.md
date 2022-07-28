@@ -12,9 +12,12 @@ Also, I've always been interested in Desert Strike ever since I first played it.
 
 Xel Toolkit: https://xel-toolkit.org/
 
-# To run from source:
+# To use the source:
 
-Clone this repository, and run `npm start` in the main directory.
+You have two options:
+
+1. Clone this repository, and run `npm start` in the main directory.
+2. Clone this repository, and build it with Electron-Builder.
 
 # "Help. I'm a user, and I just want to run it."
 
@@ -22,9 +25,10 @@ Check out the Releases section.
 
 # Known Issues
 
+- It takes awhile for the program to start. This is worse in the releases (as opposed to running from source). This is the nature of Electron apps, but if you know any optimization tricks, let me know.
 - Some Level 2 passwords cannot be generated with certain high scores. I'm unsure if this is due to a limitation of the password system, or if there is a bug. This remains something to sort out.
 - The score text input and the score slider input are not always 100% synced. I could afford to redo the data bindings. If you type in a score manually, be sure to press Enter.
-- Only the SNES version is currently supported.
+- Only the US/European SNES version and GBA version are currently supported.
 
 # TODO:
 
