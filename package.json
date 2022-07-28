@@ -1,6 +1,6 @@
 {
   "name": "DSPassTranslator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A password analyzer for the SNES version of Desert Strike",
   "main": "main.js",
   "scripts": {
