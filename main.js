@@ -12,11 +12,14 @@ function createWindow() {
       slashes: true
    }))
    win.on('ready-to-show', showWindow);
+   win.webContents.on('did-finish-load', () => {
+     win.webContents.send('version', app.getVersion());
+   });
 }
 
 function showWindow() {
-      win.show();
-      win.focus();
-  }
+  win.show();
+  win.focus();
+}
 
 app.on('ready', createWindow);
