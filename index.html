@@ -7,7 +7,7 @@
       <meta name="xel-accent-color" content="yellow">
       <meta name="xel-size" content="medium">
       <meta name="xel-iconsets" content="node_modules/xel/iconsets/fluent-outlined.svg">
-      <title>Desert Strike SNES Password Translator</title>
+      <title>Desert Strike SNES/GBA Password Translator</title>
    </head>
 
    <body>
@@ -19,19 +19,18 @@
             <x-icon style="margin-right:auto" href="#copy" id="copyPasswordIcon"></x-icon>
           </x-box>
       </x-card>
-      <x-box vertical>
-        <x-box vertical>
+      <x-box vertical style="min-height:150px">
           <x-button id="decipherButton" style="width:175px"><x-label>Decipher</x-label><x-icon href="#remove"></x-icon><x-icon href="#chevron-right"></x-icon></x-button>
           <x-button id="generateButton" style="width:175px"><x-icon href="#chevron-left"></x-icon><x-icon href="#remove"></x-icon><x-label>Generate</x-label></x-button>
           <x-box style="margin-top:15px; margin-left:auto; margin-right:auto">
             <x-label id="label5" style="margin-left:auto">5 lives: GTSTFTC</x-label>
             <x-icon style="margin-left:5px; margin-right:auto" href="#copy" id="copy5"></x-icon>
           </x-box>
-          <x-box style="margin-left:auto; margin-right:auto">
+          <x-box style="margin-left:auto; margin-right:auto; margin-bottom:15px">
             <x-label id="label10" style="margin-left:auto">10 lives: BS9JS27</x-label>
             <x-icon style="margin-left:5px; margin-right:auto" href="#copy" id="copy10"></x-icon>
           </x-box>
-        </x-box>
+          <x-label style="margin-left:auto; margin-right:auto; margin-top:auto" id="versionLabel"></x-label>
       </x-box>
       <x-card style="min-height:150px">
         <h2 style="text-align:center">Level &amp; Score</h2>

@@ -138,8 +138,9 @@ function generatePassword()
   sum -= 0x0186;
   if(sum < 0)
   {
-    setNotification("Error: Currently unable to encode score at this level. Perhaps a bug?");
-    return;
+    sum = (sum >>> 0) & 0x0000FFFF; // convert sum to a 16-bit unsigned number.
+    console.log("sum converted to unsigned: " + sum);
+    //setNotification("Error: Currently unable to encode score at this level. Perhaps a bug?");
   }
   console.log("Sum after subtraction: " + sum);
   remainder = sum % 0x001a;
@@ -217,6 +218,7 @@ document.addEventListener("DOMContentLoaded", () => {
   window.scoreSlider = document.querySelector("#scoreSlider");
   window.scoreInput = document.querySelector("#scoreInput");
   window.passwordInput = document.querySelector("#passwordInput");
+  window.versionLabel = document.querySelector("#versionLabel");
 
   //copyPasswordIcon.ptrText = passwordInput;
   //copy5.ptrText = document.querySelector("#label5");
@@ -231,4 +233,9 @@ document.addEventListener("DOMContentLoaded", () => {
   scoreInput.addEventListener('textinputmodeend', scoreInputTextEnd);
   scoreInput.addEventListener('change', scoreInputTextChange);
   passwordInput.addEventListener('textinputmodeend', passwordInputTextEnd);
+
+  require('electron').ipcRenderer.on('version', (event, version) => {
+      console.log(version);
+      versionLabel.innerHTML = version;
+    })
 });
