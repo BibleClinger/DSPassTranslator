@@ -1,6 +1,8 @@
 # Desert Strike Password Translator
 
-This is a password translator for the amazing video game Desert Strike. It supports password generation that will bring you to a desired level and score as well as deriving the level and score from a valid password.
+This is a password translator for the amazing video game Desert Strike.
+
+It supports password generation that will bring you to a desired level with a score of your choice. It supports decoding a valid password to the level and score.
 
 # Purpose
 
